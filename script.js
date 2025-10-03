@@ -89,3 +89,43 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
+
+// Aguarda o documento HTML ser completamente carregado antes de executar o código.
+document.addEventListener('DOMContentLoaded', function() {
+
+  // 1. Seleciona todos os elementos que contêm os nomes dos pratos no cardápio.
+  // Estamos procurando por qualquer elemento com a classe 'card-title' dentro da seção com id 'menu-cliente-view'.
+  const pratosDoCardapio = document.querySelectorAll('#menu-cliente-view .card-title');
+
+  // 2. Seleciona o campo <select> do formulário pelo seu id 'preferencia'.
+  const selectPreferencia = document.getElementById('preferencia');
+
+  // 3. Limpa todas as opções que já existem no <select>.
+  // Isso garante que não vamos misturar as opções estáticas com as dinâmicas.
+  selectPreferencia.innerHTML = '';
+
+  // Adiciona uma primeira opção padrão, que serve como um guia para o usuário.
+  const opcaoPadrao = document.createElement('option');
+  opcaoPadrao.textContent = 'Selecione seu prato preferido';
+  opcaoPadrao.value = ''; // Valor vazio para não ser considerado uma escolha válida
+  selectPreferencia.appendChild(opcaoPadrao);
+
+  // 4. Percorre a lista de pratos encontrados no cardápio.
+  pratosDoCardapio.forEach(prato => {
+    // Para cada prato, pega o nome dele (o texto dentro da tag <h5>).
+    const nomeDoPrato = prato.textContent;
+
+    // Cria um novo elemento HTML do tipo <option>.
+    const novaOpcao = document.createElement('option');
+
+    // Define o texto que o usuário vai ver na lista.
+    novaOpcao.textContent = nomeDoPrato;
+
+    // Define o valor que será enviado com o formulário (geralmente o mesmo que o texto).
+    novaOpcao.value = nomeDoPrato;
+
+    // Adiciona a nova opção criada ao final da lista <select>.
+    selectPreferencia.appendChild(novaOpcao);
+  });
+
+});
