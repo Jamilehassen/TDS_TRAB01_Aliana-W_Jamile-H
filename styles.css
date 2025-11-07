@@ -46,6 +46,8 @@ h2 {
 
 /* ======== Cards do Cardápio ======== */
 .card {
+  width: 90%;
+  margin: auto;
   border: none;
   border-radius: 15px;
   overflow: hidden;
@@ -62,6 +64,7 @@ h2 {
 .card-title {
   font-weight: 600;
   color: #444;
+  margin-bottom: 0.5em
 }
 .card-text {
   color: #666;
