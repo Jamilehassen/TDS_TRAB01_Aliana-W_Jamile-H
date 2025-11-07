@@ -8,7 +8,7 @@ Prof. Newton Spolaôr
 ---
 
 ## 📌 Descrição
-Implementação de uma aplicação web (tema livre), **client-side/front-end**, utilizando:
+Este é um projeto front-end de um site de restaurante, criado como parte do Trabalho 1 da disciplina de Tecnologias para Desenvolvimento de Sistemas, para o **client-side/front-end**, utilizando:
 - Git e GitHub  
 - HTML5 e CSS  
 - Bootstrap  
