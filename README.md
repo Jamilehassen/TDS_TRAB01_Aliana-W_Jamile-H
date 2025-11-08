@@ -7,18 +7,30 @@ Prof. Newton Spolaôr
 
 ---
 
-## 📌 Descrição
-Este é um projeto front-end de um site de restaurante, criado como parte do Trabalho 1 da disciplina de Tecnologias para Desenvolvimento de Sistemas, para o **client-side/front-end**, utilizando:
-- Git e GitHub  
-- HTML5 e CSS  
-- Bootstrap  
-- JavaScript  
+## Descrição
+Este é um projeto front-end de um site de restaurante, criado como parte do Trabalho 1 da disciplina de Tecnologias para Desenvolvimento de Sistemas, para o **client-side/front-end**.
 
 O objetivo é aplicar os conceitos aprendidos em aula, explorando comandos e recursos adicionais.
 
+## Funcionalidades Principais
+
+* **Cardápio Dinâmico:** Visualização dos pratos do restaurante.
+* **Carrinho de Compras:** Os utilizadores podem adicionar e remover itens do carrinho, com o total a ser calculado automaticamente.
+* **Simulação de Login:** Uma página de login (`login.html`) que simula a autenticação de um cliente.
+* **Persistência de Sessão:** O site "lembra-se" se o utilizador está logado ao usar a `sessionStorage`.
+
+## Tecnologias Utilizadas
+
+O projeto foi construído com as tecnologias base do desenvolvimento web front-end, conforme solicitado nos requisitos do trabalho:
+
+* **HTML5:** Para a estrutura e semântica do conteúdo.
+* **CSS3:** Para a estilização (ficheiro `styles.css`).
+* **Bootstrap 5:** Para o layout responsivo, componentes (Navbar, Cards) e sistema de Grid.
+* **JavaScript (ES6+):** Para a interatividade, manipulação do DOM e lógica do carrinho (ficheiros `script.js` e `login.js`).
+
 ---
 
-## ✅ Requisitos Mínimos
+## Requisitos Mínimos
 
 ### Git/GitHub
 - Criação de repositório git local com pelo menos **dois commits** referentes a este trabalho.  
@@ -43,42 +55,20 @@ O objetivo é aplicar os conceitos aprendidos em aula, explorando comandos e rec
 - Eventos: pelo menos **2 tipos diferentes** (ex: mouse, teclado, formulário, janela, etc.).  
 - Funções: explorar os **3 formatos** (function declaration, function expression, arrow functions).  
 - Uso de **arrays**.  
-- Uso de **objetos**.  
+- Uso de **objetos**.   
 
 ---
 
-## 🎯 Exemplos de Temas
-- Produtos/serviços diversos  
-- Educação  
-- Jogos  
-- Cursos online  
-- Saúde  
-- Cultura  
-- Eventos  
-- Notícias  
-- Viagens  
-- Culinária  
-- Infantil  
-- Pets  
+## Como Executar
+
+Este é um projeto puramente front-end. Não é necessária nenhuma instalação.
+
+1.  Clone este repositório.
+2.  Abra o ficheiro `index.html` no teu navegador de preferência.
 
 ---
 
-## 📅 Regras e Prazos
-- Trabalho **individual ou em dupla** (preferencialmente em dupla).  
-- Um integrante deve enviar o link do repositório público ao professor via **Teams (chat privado)**.  
-- Após o envio do link, **não são permitidas alterações no código-fonte** até a apresentação.  
-- **Data de entrega:** até **10/11, 12:00**.  
-- **Apresentações:** 10 e 12/11.  
-- **Duração da apresentação:** até 7 minutos.  
-- **Valor:** 100 pontos.  
+## Autores
 
----
-
-## ⚠️ Observações
-- Atraso na entrega implica em **perda de 50 pontos por dia** (24 horas).  
-- O aluno deve ser capaz de explicar o uso de cada elemento/comando do trabalho.  
-- Ambos integrantes devem estar presentes na apresentação.  
-- O respeito ao tempo (7 minutos) e boas práticas de apresentação também contam na nota.  
-- Trabalhos **iguais ou muito semelhantes** receberão nota **0 para todos os envolvidos**.  
-
----
+* Jamile Hassen Sá
+* Aliana Wakassugui de Paula e Silva
